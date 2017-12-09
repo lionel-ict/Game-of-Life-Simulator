@@ -1,4 +1,4 @@
-package lionel.java2d.gameoflife;
+package com.lionel.gameoflife;
 
 import java.awt.*;
 import java.awt.event.ComponentAdapter;

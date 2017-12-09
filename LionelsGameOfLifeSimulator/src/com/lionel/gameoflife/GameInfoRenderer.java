@@ -1,4 +1,4 @@
-package lionel.java2d.gameoflife;
+package com.lionel.gameoflife;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -44,12 +44,12 @@ public class GameInfoRenderer {
 		
 		// TOP: Game status information
 		String txt1 = "";
-		txt1 += "Desired FPS: " + gw.getDesiredFps() + "   ";
+		txt1 += "Desired FPS: " + gw.getDesiredFps() + " # ";
 		txt1 += "Real FPS: " + gw.getRealFps() + "   ";
-		txt1 += "Generation: " + cw.getGeneration() + "   ";
-		txt1 += "Cells: " + cw.getnCellsAlive() + "   ";
-		txt1 += "World-Size: " + cw.getWorldW() + "x" + cw.getWorldH() + "   ";
-		txt1 += "Cell-Size: " + df.format(cwr.getCellW()) + "x" + df.format(cwr.getCellH()) + "   ";
+		txt1 += "Generation: " + cw.getGeneration() + " # ";
+		txt1 += "Cells: " + cw.getnCellsAlive() + " # ";
+		txt1 += "World-Size: " + cw.getWorldW() + "x" + cw.getWorldH() + " # ";
+		txt1 += "Cell-Size: " + df.format(cwr.getCellW()) + "x" + df.format(cwr.getCellH());
 
 		// BOTTOM: Keyboard & Mouse information
 		String txt2 = "[i] show/hide this info # [Enter] play  # [Space] pause/step-by-step # [0] kill all # [1-9] randomize";

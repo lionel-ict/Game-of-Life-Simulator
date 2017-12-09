@@ -1,4 +1,4 @@
-package lionel.java2d.gameoflife;
+package com.lionel.gameoflife;
 
 import java.awt.Component;
 import java.awt.event.MouseEvent;

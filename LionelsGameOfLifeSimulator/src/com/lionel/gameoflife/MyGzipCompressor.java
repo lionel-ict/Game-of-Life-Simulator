@@ -1,4 +1,4 @@
-package lionel.java2d.gameoflife;
+package com.lionel.gameoflife;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

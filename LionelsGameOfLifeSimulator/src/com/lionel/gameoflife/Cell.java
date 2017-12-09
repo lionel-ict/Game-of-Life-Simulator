@@ -1,4 +1,4 @@
-package lionel.java2d.gameoflife;
+package com.lionel.gameoflife;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
