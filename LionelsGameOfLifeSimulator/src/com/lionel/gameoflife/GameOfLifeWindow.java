@@ -1,6 +1,7 @@
 package com.lionel.gameoflife;
 
-import java.awt.*;
+import java.awt.Graphics;
+import java.awt.Insets;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.KeyEvent;
