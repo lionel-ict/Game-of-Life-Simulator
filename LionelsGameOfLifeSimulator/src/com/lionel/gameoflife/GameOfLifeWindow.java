@@ -32,8 +32,8 @@ public class GameOfLifeWindow extends JFrame {
 	private int canvasH = 600;
 
 	// Initial cell world size (amount of cells)
-	private int initialWW = canvasW / 10;
-	private int initialWH = canvasH / 10;
+	private int initialWW = canvasW / 5;
+	private int initialWH = canvasH / 5;
 
 	// Window insets (title bar, etc.)
 	private Insets insets;

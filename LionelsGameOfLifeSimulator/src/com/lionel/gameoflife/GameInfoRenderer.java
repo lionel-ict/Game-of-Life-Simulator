@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 public class GameInfoRenderer {
 
 	GameOfLifeWindow gw;
-	Font f = new Font("Dialog", Font.PLAIN, 18);
+	Font f = new Font("Dialog", Font.BOLD, 17);
 	boolean visible = true;
 	
 	BufferedImage bufferTop;
@@ -45,7 +45,7 @@ public class GameInfoRenderer {
 		// TOP: Game status information
 		String txt1 = "";
 		txt1 += "Desired FPS: " + gw.getDesiredFps() + " # ";
-		txt1 += "Real FPS: " + gw.getRealFps() + "   ";
+		txt1 += "Real FPS: " + gw.getRealFps() + " # ";
 		txt1 += "Generation: " + cw.getGeneration() + " # ";
 		txt1 += "Cells: " + cw.getnCellsAlive() + " # ";
 		txt1 += "World-Size: " + cw.getWorldW() + "x" + cw.getWorldH() + " # ";
