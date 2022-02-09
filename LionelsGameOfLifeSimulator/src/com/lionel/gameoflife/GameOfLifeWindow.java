@@ -45,12 +45,6 @@ public class GameOfLifeWindow extends JFrame {
 	// File chooser
 	JFileChooser fc = null;
 
-	public static void main(String[] args) {
-		GameOfLifeWindow game = new GameOfLifeWindow();
-		game.run();
-		System.exit(0);
-	}
-
 	/**
 	 * This method starts the game and runs it in a loop
 	 */
@@ -70,7 +64,7 @@ public class GameOfLifeWindow extends JFrame {
 				try {
 					Thread.sleep(sleepTime);
 				} catch (Exception e) {
-				}
+			}
 				;
 			}
 
